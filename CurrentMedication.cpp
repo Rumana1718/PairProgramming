@@ -18,5 +18,8 @@ void currentMedication()
             getline(file1, currentMedicine);
             cout<<currentMedicine<<endl;
         }
+  cout<<endl;
+    }
+    file1.close();
  
 }
