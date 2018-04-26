@@ -9,4 +9,9 @@ void currentMedication()
     string currentMedicine;
     file1.open("Medicine.txt", ios::app | ios::out | ios::in );
  
+ if(file1.is_open())
+    {
+        cout<<"Your Current Medication::"<<endl;
+        while(!file1.eof())
+ 
 }
