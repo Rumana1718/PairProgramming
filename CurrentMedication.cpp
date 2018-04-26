@@ -13,5 +13,10 @@ void currentMedication()
     {
         cout<<"Your Current Medication::"<<endl;
         while(!file1.eof())
+         
+         {
+            getline(file1, currentMedicine);
+            cout<<currentMedicine<<endl;
+        }
  
 }
