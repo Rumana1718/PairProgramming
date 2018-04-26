@@ -15,7 +15,7 @@ void newMedication()
         cin.getline(medic, sizeof(medic));
         cout<<endl<<"Dose: ";
         file<<" Dose: ";
-        
+        cin.getline(dose,sizeof(dose));
         
         file<<medic;
     }
