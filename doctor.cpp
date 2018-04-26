@@ -13,7 +13,9 @@ void newMedication()
         cout<<"Your New Medicine: ";
         file<<"Medicine: ";
         cin.getline(medic, sizeof(medic));
-       
+        cout<<endl<<"Dose: ";
+        file<<" Dose: ";
+        
         
         file<<medic;
     }
