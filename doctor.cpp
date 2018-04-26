@@ -7,7 +7,6 @@ int main()
    cin>>a;
    cout<<a+2;
    cout<<Your medicine list;
-   
     return 0;
    
 }
