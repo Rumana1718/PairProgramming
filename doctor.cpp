@@ -12,6 +12,8 @@ void newMedication()
     {
         cout<<"Your New Medicine: ";
         file<<"Medicine: ";
+        
+        file<<medic;
     }
         cout<<endl;
 
