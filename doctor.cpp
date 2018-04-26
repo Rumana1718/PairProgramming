@@ -10,8 +10,9 @@ void newMedication()
 
     if(file.is_open())
     {
-        
-        }
+        cout<<"Your New Medicine: ";
+        file<<"Medicine: ";
+    }
         cout<<endl;
 
         file.close();
