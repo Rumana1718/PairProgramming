@@ -23,3 +23,7 @@ void currentMedication()
     file1.close();
  
 }
+
+return 0;
+
+}
