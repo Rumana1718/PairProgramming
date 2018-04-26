@@ -1,7 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main()
+void newMedication()
 {
+
+    fstream file;
+    char medic[200],dose[200];
+
+    file.open ("Medicine.txt", ios::app | ios::out | ios::in );
+
+    if(file.is_open())
+    {
+        
+        }
+        cout<<endl;
+
+        file.close();
+
+
+
+}
+
 
     return 0;
 }
