@@ -1,0 +1,4 @@
+Medicine: Napa Dose: 2
+Medicine: Pantonix Dose: 2
+Medicine: Montair Dose: 1
+Medicine: Galvus Met Dose: 2
