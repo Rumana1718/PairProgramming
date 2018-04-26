@@ -18,13 +18,12 @@ void newMedication()
         file<<" Dose: ";
         cin.getline(dose,sizeof(dose));
         file<<dose;
+        file<<endl;
         
     }
         cout<<endl;
 
         file.close();
-
-
 
 }
 
