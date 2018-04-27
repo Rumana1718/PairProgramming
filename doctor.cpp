@@ -3,11 +3,17 @@ using namespace std;
 int main()
 {
    
-   int a;
-   cout<<"Hello";
-   cin>>a;
-   cout<<a+2;
-   cout<<Your medicine list;
-    return 0;
+  char text[200];
+    string texts;
+    int n,m,a,b;
+    do
+    {
+   cout<<"Enter your choice::"<<endl
+        <<"1.Current Medication"<<endl
+        <<"2.New Medication"<<endl
+        <<"3.Show the formulary"<<endl
+        <<"4.I don't need anything"<<endl;
+    cin>>n;
+    
    
 }
