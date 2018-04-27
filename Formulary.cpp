@@ -9,3 +9,10 @@ void formulary()
     file2.open("Formulary.txt", ios::app | ios::out | ios::in );
     if(file2.is_open())
     {
+    
+         while(!file2.eof())
+        {
+            getline(file2, formula);
+            cout<<formula<<endl;
+        }
+        cout<<endl;
