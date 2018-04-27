@@ -21,6 +21,10 @@ void newMedication()
         file<<endl;
         
     }
+    else
+    {
+        return 0;
+    }
         cout<<endl;
 
         file.close();
