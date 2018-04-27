@@ -21,3 +21,7 @@ void formulary()
     file2.close();
 
 }
+
+return 0;
+
+}
