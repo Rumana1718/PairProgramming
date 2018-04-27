@@ -16,3 +16,8 @@ void formulary()
             cout<<formula<<endl;
         }
         cout<<endl;
+
+        }
+    file2.close();
+
+}
